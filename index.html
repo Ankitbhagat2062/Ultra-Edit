@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download UltraEdit text editor for Windows</title>
+    <style>
+        .logo img {
+            width: 164px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .right ul {
+            display: flex;
+            gap: 34px;
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .right ul li span {
+            padding: 0 5px;
+        }
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin: 70px;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .first span {
+            font-size: 40px;
+        }
+
+        .first span img {
+            margin-left: 23px;
+        }
+
+        .first p {
+            font-size: 23px;
+            width: 54vw;
+            text-align: center;
+        }
+
+        .button {
+            background-color: #5c8b5c00;
+            border: 0px solid rgba(0, 128, 0, 0);
+        }
+
+        .button a {
+            background-color: #00b6d1;
+            padding: 14px 16px;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn {
+            background-color: #00b6d1;
+            padding: 10px 6px;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: 700;
+            margin: 12px 0;
+            cursor: pointer;
+        }
+
+        .btn a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .green {
+            background-color: #5c8b5c;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .small {
+            font-size: 12px;
+        }
+
+        .second {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .item {
+            padding: 23px;
+            background-color: #f9f9f9;
+            border-radius: 12px;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            /* max-width: 22vw;          */
+        }
+
+        .item-lang {
+            font-weight: 700;
+            text-align: center;
+            padding: 36px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 11px;
+        }
+
+        .download .ultra {
+            font-size: 23px;
+        }
+
+        .download {
+            display: flex;
+            gap: 5px;
+            font-family: sans-serif;
+            align-items: center;
+            margin: 22px 0;
+        }
+
+        .burger {
+            position: absolute;
+            top: 10px;
+            right: 30px;
+            gap: 5px;
+            display: none;
+            cursor: pointer;
+        }
+
+        .line {
+            margin: 5px auto;
+            height: 4px;
+            width: 30px;
+            background-color: black;
+        }
+
+        .d-flex {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            align-items: center;
+        }
+
+        .d-text {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            align-items: baseline;
+        }
+
+        @media screen and (max-width: 1140px) {
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 12px;
+                justify-content: center;
+            }
+        }
+
+        @media screen and (max-width: 733px) {
+            .right ul {
+                gap: 0px;
+            }
+        }
+
+        @media screen and (max-width: 620px) {
+            nav {
+                width: 33vw;
+                margin: auto;
+                align-items: normal;
+                flex-direction: column;
+                transition: all 0.4s ease-out;
+                height: 208px;
+            }
+
+            .right ul {
+                gap: 10px;
+                flex-direction: column;
+            }
+
+            .right ul li img {
+                display: none;
+                opacity: 0;
+            }
+
+            .burger {
+                display: block;
+            }
+
+            .h-nav-resp {
+                height: 0px;
+            }
+
+            .v-class-resp {
+                opacity: 0;
+            }
+        }
+
+        @media screen and (max-width: 490px) {
+            .d-flex {
+                flex-direction: column;
+            }
+
+            .first {
+                margin: 30px auto;
+            }
+
+            .first span {
+                font-size: 30px;
+            }
+
+            .first p {
+                font-size: 18px;
+                width: 90vw;
+            }
+
+            .d-text {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar h-nav-resp">
+            <div class="logo right-nav v-class-resp">
+                <img src="logo.png" alt="">
+            </div>
+            <div class="right  ">
+                <ul class="nav-list v-class-resp">
+                    <li><span>Products </span><img src="arrow.png" alt="" width="20" height="20"></li>
+                    <li><span>Pricing</span> <img src="arrow.png" alt="" width="20" height="20"> </li>
+                    <li><span>Resources</span> <img src="arrow.png" alt="" width="20" height="20"></li>
+                    <li><span>About Us</span><img src="arrow.png" alt="" width="20" height="20"> </li>
+                    <li><img src="Screenshot 2024-05-11 183601.png" width="33"></li>
+                </ul>
+            </div>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <span>Download <b>UltraEdit</b> for Windows <img src="wlogo.png" alt=""> </span>
+            <p>
+                Download and try UtraEdit before you buy it! This download include full windows version of the text
+                editor
+            </p>
+            <div>
+                <button class=" button">
+                    <a href="/file.exe">DOWNLOAD MAC or LINUX VERSION</a>
+                </button>
+            </div>
+        </section>
+        <section class="second">
+            <div class="download">
+                <img src="bogo.png" alt="">
+                <div class="d-text">
+                    <span class="ultra">Download UltraEdit </span>
+                    <span class="small">v2023 D(released 08/06/2023) HotFx</span>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="item">
+                    <div class="item-lang">English</div>
+                    <div class="d-flex">
+                        <buttons class="btn blue"><a href="/file.exe">Download 32-bit</a></buttons>
+                        <buttons class="btn green"><a href="/file.exe">Download 32-bit</a></buttons>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-lang">Spanish</div>
+                    <div class="d-flex">
+                        <buttons class="btn blue"><a href="/file.exe">Download 32-bit</a></buttons>
+                        <buttons class="btn green"><a href="/file.exe">Download 32-bit</a></buttons>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-lang">Chineese</div>
+                    <div class="d-flex">
+                        <buttons class="btn blue"><a href="/file.exe">Download 32-bit</a></buttons>
+                        <buttons class="btn green"><a href="/file.exe">Download 32-bit</a></buttons>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-lang">American</div>
+                    <div class="d-flex">
+                        <buttons class="btn blue"><a href="/file.exe">Download 32-bit</a></buttons>
+                        <buttons class="btn green"><a href="/file.exe">Download 32-bit</a></buttons>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-lang">Urdu</div>
+                    <div class="d-flex">
+                        <buttons class="btn blue"><a href="/file.exe">Download 32-bit</a></buttons>
+                        <buttons class="btn green"><a href="/file.exe">Download 32-bit</a></buttons>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-lang">German</div>
+                    <div class="d-flex">
+                        <buttons class="btn blue"><a href="/file.exe">Download 32-bit</a></buttons>
+                        <buttons class="btn green"><a href="/file.exe">Download 32-bit</a></buttons>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-lang">English</div>
+                    <div class="d-flex">
+                        <buttons class="btn blue"><a href="/file.exe">Download 32-bit</a></buttons>
+                        <buttons class="btn green"><a href="/file.exe">Download 32-bit</a></buttons>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-lang">Japaneese</div>
+                    <div class="d-flex">
+                        <buttons class="btn blue"><a href="/file.exe">Download 32-bit</a></buttons>
+                        <buttons class="btn green"><a href="/file.exe">Download 32-bit</a></buttons>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-lang">English</div>
+                    <div class="d-flex">
+                        <buttons class="btn blue"><a href="/file.exe">Download 32-bit</a></buttons>
+                        <buttons class="btn green"><a href="/file.exe">Download 32-bit</a></buttons>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="burger.js"></script>
+</body>
+
+</html>
